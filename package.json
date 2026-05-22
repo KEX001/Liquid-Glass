@@ -1,8 +1,16 @@
 {
   "name": "@kex001/liquid-glass",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Premium fluid-glassmorphism component library and styles featuring dynamic SVG displacement and 3D specular shine reflections.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KEX001/Liquid-Glass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KEX001/Liquid-Glass/issues"
+  },
+  "homepage": "https://github.com/KEX001/Liquid-Glass#readme",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "style": "dist/style.css",

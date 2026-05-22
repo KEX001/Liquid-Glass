@@ -1,5 +1,9 @@
 # 🧪 Liquid Glass UI
 
+[![npm version](https://img.shields.io/npm/v/@kex001/liquid-glass.svg?color=DE3C72&style=flat-square)](https://www.npmjs.com/package/@kex001/liquid-glass)
+[![npm downloads](https://img.shields.io/npm/dm/@kex001/liquid-glass.svg?color=48A2D4&style=flat-square)](https://www.npmjs.com/package/@kex001/liquid-glass)
+[![license](https://img.shields.io/github/license/KEX001/Liquid-Glass.svg?color=7A5FCF&style=flat-square)](https://github.com/KEX001/Liquid-Glass/blob/main/LICENSE)
+
 An ultra-premium, high-fidelity glassmorphic component library and CSS framework. It utilizes advanced **SVG displacement distortion maps**, multi-layered **specular reflection shading**, and **organic mercury fluid morphing animations** to create stunning, interactive, and futuristic user interfaces.
 
 ---
