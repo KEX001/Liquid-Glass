@@ -1,5 +1,5 @@
 {
-  "name": "liquid-glass-ui",
+  "name": "@kex001/liquid-glass",
   "version": "1.0.0",
   "type": "module",
   "description": "Premium fluid-glassmorphism component library and styles featuring dynamic SVG displacement and 3D specular shine reflections.",

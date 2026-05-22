@@ -21,7 +21,7 @@ An ultra-premium, high-fidelity glassmorphic component library and CSS framework
 Install the package via npm (when published):
 
 ```bash
-npm install liquid-glass-ui
+npm install @kex001/liquid-glass
 ```
 
 *Or manually copy the files directly into your project's components/styles directory.*
@@ -31,7 +31,7 @@ npm install liquid-glass-ui
 Import the core layout styles in your application's entry file (e.g., `main.jsx`, `App.tsx`, or `_app.js`):
 
 ```javascript
-import 'liquid-glass-ui/dist/style.css';
+import '@kex001/liquid-glass/dist/style.css';
 ```
 
 ---
@@ -42,7 +42,7 @@ Wrap your root layout with the `<LiquidGlassProvider>` to automatically inject t
 
 ```jsx
 import React from 'react';
-import { LiquidGlassProvider, LiquidGlassContainer } from 'liquid-glass-ui';
+import { LiquidGlassProvider, LiquidGlassContainer } from '@kex001/liquid-glass';
 
 export default function App() {
   return (
@@ -88,7 +88,7 @@ Create a provider wrapper file: `components/GlassProvider.jsx`:
 "use client";
 
 import React from 'react';
-import { LiquidGlassProvider } from 'liquid-glass-ui';
+import { LiquidGlassProvider } from '@kex001/liquid-glass';
 
 export default function GlassProvider({ children }) {
   return (
@@ -103,7 +103,7 @@ Then, wrap your layout root `app/layout.jsx`:
 
 ```jsx
 import './globals.css';
-import 'liquid-glass-ui/dist/style.css';
+import '@kex001/liquid-glass/dist/style.css';
 import GlassProvider from '@/components/GlassProvider';
 
 export const metadata = {
