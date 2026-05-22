@@ -8,7 +8,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/index.js'),
       name: 'LiquidGlassUI',
-      fileName: (format) => `index.${format === 'es' ? 'esm' : 'js'}`
+      fileName: (format) => `index.${format === 'es' ? 'esm.js' : 'js'}`
     },
     rollupOptions: {
       external: ['react', 'react-dom', 'lucide-react'],
